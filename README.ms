@@ -8,4 +8,4 @@
 1. Clona el repositorio:
    Open bash
    git clone <https://github.com/Bladeo8x/Tercera_pre-entrega_Pena-Gonzalez.git>
-   cd Tercera_pre-entrega_Pena-Gonzalez
+   cd Tercera_pre-entrega_Pena-Gonzalez/MiProyecto

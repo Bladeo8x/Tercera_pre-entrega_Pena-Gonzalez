@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{% block title %}Miapp{% endblock %}</title>
+  </head>
+  <body>
+    <div>
+      <a href="{% url 'index' %}">Home</a>
+      <a href="{% url 'add_author' %}">Add Author</a>
+      <a href="{% url 'add_book' %}">Add Book</a>
+      <a href="{% url 'add_review' %}">Add Review</a>
+      <a href="{% url 'search' %}">Search Books</a>
+    </div>
+    <hr />
+    {% block content %}{% endblock %}
+  </body>
+</html>
+```
